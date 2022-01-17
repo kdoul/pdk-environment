@@ -16,4 +16,4 @@ test ! -e $DIST/lib/adoptopenjdk || rm -rf $DIST/lib/adoptopenjdk
 
 # Unzip content
 unzip -qo $TMP/adoptopenjdk-x64-windows-jre-${VERSION}.zip -d $DIST/lib
-mv $DIST/lib/jdk${VERSION}-jre $DIST/lib/adoptopenjdk
+mv $DIST/lib/jdk-${VERSION}-jre $DIST/lib/adoptopenjdk
